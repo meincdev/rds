@@ -1,0 +1,43 @@
+{
+  "name": "@meinc/rds",
+  "version": "0.1.0",
+  "description": "Reba Design System - A music-native design system for building beautiful, accessible applications",
+  "author": "ME Inc.",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meincdev/rds.git"
+  },
+  "homepage": "https://github.com/meincdev/rds#readme",
+  "bugs": {
+    "url": "https://github.com/meincdev/rds/issues"
+  },
+  "keywords": [
+    "design-system",
+    "react",
+    "tailwindcss",
+    "radix-ui",
+    "music",
+    "audio",
+    "ui-components",
+    "rds"
+  ],
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w @meinc/rds-tokens && npm run build -w @meinc/rds-ui-core && npm run build -w @meinc/rds-social-core && npm run build -w @meinc/rds-media-core && npm run build -w @meinc/rds-ai-elements",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "clean": "rm -rf packages/*/dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

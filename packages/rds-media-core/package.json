@@ -1,0 +1,78 @@
+{
+  "name": "@meinc/rds-media-core",
+  "version": "0.1.0",
+  "description": "Audio, video, and MIDI media components and controls for Reba Design System.",
+  "author": "ME Inc.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meincdev/rds.git",
+    "directory": "packages/rds-media-core"
+  },
+  "bugs": {
+    "url": "https://github.com/meincdev/rds/issues"
+  },
+  "homepage": "https://github.com/meincdev/rds#readme",
+  "keywords": [
+    "design-system",
+    "react",
+    "audio",
+    "video",
+    "midi",
+    "player",
+    "media",
+    "music",
+    "transport",
+    "timeline",
+    "rds"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "echo \"(no tests yet)\""
+  },
+  "dependencies": {
+    "@meinc/rds-tokens": "0.1.0",
+    "@meinc/rds-ui-core": "0.1.0",
+    "@meinc/rds-social-core": "0.1.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18",
+    "lucide-react": ">=0.300"
+  },
+  "peerDependenciesMeta": {
+    "lucide-react": { "optional": true }
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "lucide-react": "^0.469.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "tsup": "^8.5.1",
+    "typescript": "^5"
+  }
+}

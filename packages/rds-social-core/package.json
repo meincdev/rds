@@ -1,0 +1,68 @@
+{
+  "name": "@meinc/rds-social-core",
+  "version": "0.1.0",
+  "description": "Social interaction primitives (comments, threads, reactions) for Reba Design System.",
+  "author": "ME Inc.",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meincdev/rds.git",
+    "directory": "packages/rds-social-core"
+  },
+  "bugs": {
+    "url": "https://github.com/meincdev/rds/issues"
+  },
+  "homepage": "https://github.com/meincdev/rds#readme",
+  "keywords": [
+    "design-system",
+    "react",
+    "social",
+    "comments",
+    "reactions",
+    "threads",
+    "collaboration",
+    "music",
+    "rds"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      },
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "lint": "eslint src --ext .ts,.tsx",
+    "test": "echo \"(no tests yet)\""
+  },
+  "dependencies": {
+    "@meinc/rds-tokens": "0.1.0",
+    "@meinc/rds-ui-core": "0.1.0"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "react": "^19",
+    "react-dom": "^19",
+    "tsup": "^8.5.1",
+    "typescript": "^5"
+  }
+}
