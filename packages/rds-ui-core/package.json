@@ -94,7 +94,8 @@
     "react-resizable-panels": "^2.0.0",
     "recharts": "^2.0.0",
     "sonner": "^1.0.0",
-    "vaul": "^1.0.0"
+    "vaul": "^1.0.0",
+    "next-themes": ">=0.3.0"
   },
   "peerDependenciesMeta": {
     "cmdk": { "optional": true },
@@ -106,7 +107,8 @@
     "react-resizable-panels": { "optional": true },
     "recharts": { "optional": true },
     "sonner": { "optional": true },
-    "vaul": { "optional": true }
+    "vaul": { "optional": true },
+    "next-themes": { "optional": true }
   },
   "devDependencies": {
     "@types/react": "^19",
@@ -122,6 +124,7 @@
     "react-resizable-panels": "^2.1.7",
     "recharts": "^2.15.0",
     "sonner": "^1.7.1",
+    "next-themes": "^0.4.4",
     "tsup": "^8.5.1",
     "typescript": "^5",
     "vaul": "^1.1.2"
