@@ -29,5 +29,6 @@ export default defineConfig({
     "recharts",
     "sonner",
     "vaul",
+    "next-themes",
   ],
 });

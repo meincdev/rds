@@ -61,14 +61,26 @@
   "peerDependencies": {
     "react": ">=18",
     "react-dom": ">=18",
-    "lucide-react": ">=0.300"
+    "lucide-react": ">=0.300",
+    "hls.js": ">=1.0.0",
+    "@mux/mux-player-react": ">=2.0.0",
+    "@tonejs/midi": ">=2.0.0",
+    "tone": ">=14.0.0"
   },
   "peerDependenciesMeta": {
-    "lucide-react": { "optional": true }
+    "lucide-react": { "optional": true },
+    "hls.js": { "optional": true },
+    "@mux/mux-player-react": { "optional": true },
+    "@tonejs/midi": { "optional": true },
+    "tone": { "optional": true }
   },
   "devDependencies": {
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "hls.js": "^1.5.0",
+    "@mux/mux-player-react": "^2.0.0",
+    "@tonejs/midi": "^2.0.0",
+    "tone": "^14.0.0",
     "lucide-react": "^0.469.0",
     "react": "^19",
     "react-dom": "^19",

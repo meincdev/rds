@@ -19,5 +19,9 @@ export default defineConfig({
 
     // Optional peer dependencies
     "lucide-react",
+    "hls.js",
+    "@mux/mux-player-react",
+    "@tonejs/midi",
+    "tone",
   ],
 });
