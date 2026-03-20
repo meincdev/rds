@@ -1,0 +1,27 @@
+[
+  {
+    "name": "@meinc/rds-tokens",
+    "path": "packages/rds-tokens/dist/index.mjs",
+    "limit": "5 kB"
+  },
+  {
+    "name": "@meinc/rds-ui-core",
+    "path": "packages/rds-ui-core/dist/index.mjs",
+    "limit": "50 kB"
+  },
+  {
+    "name": "@meinc/rds-social-core",
+    "path": "packages/rds-social-core/dist/index.mjs",
+    "limit": "25 kB"
+  },
+  {
+    "name": "@meinc/rds-media-core",
+    "path": "packages/rds-media-core/dist/index.mjs",
+    "limit": "30 kB"
+  },
+  {
+    "name": "@meinc/rds-ai-elements",
+    "path": "packages/rds-ai-elements/dist/index.mjs",
+    "limit": "25 kB"
+  }
+]

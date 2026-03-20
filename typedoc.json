@@ -1,0 +1,17 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": [
+    "packages/rds-tokens/src/index.ts",
+    "packages/rds-ui-core/src/index.ts",
+    "packages/rds-social-core/src/index.ts",
+    "packages/rds-media-core/src/index.ts",
+    "packages/rds-ai-elements/src/index.ts"
+  ],
+  "out": "docs/api",
+  "name": "Reba Design System API Reference",
+  "entryPointStrategy": "expand",
+  "exclude": ["**/*.test.*", "**/node_modules/**"],
+  "tsconfig": "tsconfig.json",
+  "githubPages": false,
+  "readme": "none"
+}
