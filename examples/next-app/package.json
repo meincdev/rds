@@ -1,0 +1,26 @@
+{
+  "name": "rds-example-next-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@meinc/rds-tokens": "*",
+    "@meinc/rds-ui-core": "*",
+    "@meinc/rds-social-core": "*",
+    "@meinc/rds-media-core": "*",
+    "@meinc/rds-ai-elements": "*",
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.400.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5"
+  }
+}
