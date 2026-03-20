@@ -118,4 +118,4 @@ MIT License - see [LICENSE](./LICENSE) for details.
 
 ---
 
-Built with love for the music community by [ME Inc.](https://meinc.com)
+Built with love for the music community by [MEINC](https://meinc.co) & [NMFOLIO](https://nmfolio.com)
